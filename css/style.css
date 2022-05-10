@@ -189,36 +189,6 @@ footer {
     color: #fff;
 }
 
-
-
-/* Media queries */
-@media screen and (min-width: 600px ) {
-    .icone {display: none;
-    }
-    .menu {
-        justify-content: space-between;
-        display: flex;
-        padding: 1rem;
-    }
-    .menu a{
-        padding:  0 1rem;
-    }
-
-}
-
-@media screen and (max-width: 800px) {
-    html {
-        font-size: 18px;
-    }
-    header .limitador {
-        height: 15vh;
-    }
-
-    .destaque {
-        width: 85vh;
-    }
-}
-
 /* Formatando Páginas internas */
 
 .conteudo {
@@ -264,4 +234,34 @@ td:last-child {
 caption {
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+
+
+/* Media queries */
+@media screen and (min-width: 600px ) {
+    .icone {display: none;
+    }
+    .menu {
+        justify-content: space-between;
+        display: flex;
+        padding: 1rem;
+    }
+    .menu a{
+        padding:  0 1rem;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 18px;
+    }
+    header .limitador {
+        height: 15vh;
+    }
+
+    .destaque {
+        width: 85vh;
+    }
 }
