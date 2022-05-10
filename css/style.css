@@ -255,3 +255,13 @@ th, td {
 td:first-child {
     text-transform: uppercase;
 }
+td:nth-child(2) {
+    text-align: center;
+}
+td:last-child {
+    color: blue;
+}
+caption {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
