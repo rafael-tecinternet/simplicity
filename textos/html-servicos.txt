@@ -1,0 +1,18 @@
+SERVIÇOS
+
+<h2>Serviços</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorum, maxime et consequatur architecto perspiciatis impedit ullam. Facilis sapiente magni accusantium consectetur qui omnis, consequatur autem iusto sunt tenetur id!</p>
+
+            <p>Ea possimus aut facilis incidunt natus dolorem accusantium impedit expedita cupiditate voluptatum doloremque, sint esse voluptatem voluptate quasi fugit minus eos. Perspiciatis, excepturi ipsam fuga asperiores ducimus dolores quam. Tempore!</p>
+
+            <p>Incidunt illum, voluptatem reprehenderit quibusdam minus temporibus rem fugiat odit earum ipsum ratione excepturi quasi fugit suscipit libero, recusandae repellat culpa. Aspernatur natus omnis ad aperiam magnam suscipit, praesentium quasi.</p>
+
+            <figure>
+                <a href="imagens/desenvolvimento-web.jpg" title="web design"><img src="imagens/desenvolvimento-web-mini.jpg" alt="web design"></a>
+
+                <a href="imagens/design-grafico.jpg" title="design gráfico"><img src="imagens/design-grafico-mini.jpg" alt="design gráfico"></a>
+
+                <a href="imagens/marketing-digital.jpg" title="mkt digital"><img src="imagens/marketing-digital-mini.jpg" alt="marketing digital"></a>
+
+                <a href="imagens/consultoria-treinamento.jpg" title="consultoria e treinamentos"><img src="imagens/consultoria-treinamento-mini.jpg" alt="pessoas em treinamento web"></a>
+            </figure>

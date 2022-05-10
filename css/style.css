@@ -1,0 +1,257 @@
+/* Primeiro sempre formatar as tags Globais */
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-size: 14px;
+}
+
+body, h1, h2, h3, p, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav,h1 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+h1 a{
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;    
+}
+
+header .limitador {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.limitador {
+    max-width: 1100px;
+    width: 95vw;
+    margin: auto;
+}
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none; 
+}
+
+nav {
+    width: 65%;
+    text-align: right;
+    
+}
+
+.icone {
+font-size: 1.2rem;
+padding: 1rem;
+height: 50px;
+display: inline-block;
+}
+
+h2 a {
+    color: black;
+}
+
+.menu a {
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+
+.menu a:hover, .menu a:active {
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+/* Esta classe será manipulada via JS */
+.menu-aberto {
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+/* Section com a class destaque */
+.destaque {
+    background-image: url(../imagens/fundo-destaque.jpg);
+    height: 90vh;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.destaque h2 {
+    font-size: clamp(2rem, 8vw, 7rem); /* Clamp (min, ideal, max); */
+    animation-name: fadeIn; 
+    animation-duration: 1.5s;
+    
+}
+
+.destaque p {
+    font-size: clamp(1.6rem, 2vw, 4rem); /* Clamp(min, ideal, max); */
+    animation: fadeIn  1.5s 1s backwards; /* Atraso da animação */
+}
+
+@keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.front-end, .localizacao {
+    text-align: center;
+}
+
+section h2 {
+    text-align: center;
+    padding: 1.rem;
+}
+
+section p {
+    padding: .5rem 0;
+}
+
+figure {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.historia {
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.historia h2 {
+    text-shadow: black 1px 1px 2px;
+    color: #fff;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+}
+
+.historia iframe {
+    max-width: 800px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14vh;
+    background-color: black;
+    font-weight: bolder;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+/* Media queries */
+@media screen and (min-width: 600px ) {
+    .icone {display: none;
+    }
+    .menu {
+        justify-content: space-between;
+        display: flex;
+        padding: 1rem;
+    }
+    .menu a{
+        padding:  0 1rem;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 18px;
+    }
+    header .limitador {
+        height: 15vh;
+    }
+
+    .destaque {
+        width: 85vh;
+    }
+}
+
+/* Formatando Páginas internas */
+
+.conteudo {
+    background-color: whitesmoke;
+    padding: .7rem;
+    border-radius: 7px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;    /* A borda fica com as bordas mescladas */ 
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    max-width: 700px;
+}
+
+th {
+    background-color: black;
+    color: #fff;
+}
+
+td {
+    background-color: #fff;
+}
+
+th, td {
+    width: 33%;
+    padding: .5rem;
+}
+/* nth child é possível selecionar a ocorrencia que queremos mudar */
+td:first-child {
+    text-transform: uppercase;
+}

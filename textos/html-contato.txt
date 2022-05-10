@@ -1,0 +1,112 @@
+CONTATO
+
+<h2>Contato</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorum, maxime et consequatur architecto perspiciatis impedit ullam. Facilis sapiente magni accusantium consectetur qui omnis, consequatur autem iusto sunt tenetur id!</p>
+
+            <p>Incidunt illum, voluptatem reprehenderit quibusdam minus temporibus rem fugiat odit earum ipsum ratione excepturi quasi fugit suscipit libero, recusandae repellat culpa. Aspernatur natus omnis ad aperiam magnam suscipit, praesentium quasi.</p>
+
+            <!-- iniciando o formulário -->
+            <form action="https://formspree.io/f/xleazwqy" method="post" id="my-form">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div>
+                    <label for="data">Data de nascimento:</label>
+                    <input type="date" name="data" id="data">
+                </div>
+
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Digite apenas números, incluindo o DDD">
+                </div>
+
+                <div>
+                    <label for="documento">CPF ou CNPJ:</label>
+                    <input type="tel" name="documento" id="documento">
+                </div>
+
+                <div>
+                    <label for="idade">Idade:</label>
+                    <input type="number" name="idade" id="idade" min="18" max="120">
+                </div>
+
+                <div>
+                    <p>Gênero:</p>
+
+                    <input type="radio" name="genero" id="masculino" value="masculino">
+                    <label for="masculino">Masculino</label>
+
+                    <input type="radio" name="genero" id="feminino" value="feminino">
+                    <label for="feminino">Feminino</label>
+
+                    <input type="radio" name="genero" id="outros" value="outros">
+                    <label for="outros">Outros</label>
+                </div>
+
+
+                <div>
+                    <p>Interesses:</p>
+                    <input type="checkbox" name="interesses" id="design" value="design">
+                    <label for="design">Design</label>
+
+                    <input type="checkbox" name="interesses" id="marketing" value="marketing">
+                    <label for="marketing">Marketing</label>
+
+                    <input type="checkbox" name="interesses" id="programacao" value="programacao">
+                    <label for="programacao">Programação</label>
+                </div>
+
+                <div>
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" name="cep" maxlength="9" required>
+                    <b id="status"></b>
+                </div>
+
+                <div>
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" name="endereco" id="endereco" size="30">
+                </div>
+
+                <div>
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" name="bairro" id="bairro">
+                </div>
+
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" name="cidade" id="cidade">
+                </div>
+
+                <div>
+                    <label for="estado">Estado:</label>
+                    <input type="text" name="estado" id="estado">
+                </div>
+
+                <div>
+                    <label for="assunto">Assunto:</label>
+                    <select name="assunto" id="assunto">
+                        <option></option>
+                        <option>Dúvidas</option>
+                        <option>Elogios</option>
+                        <option>Reclamações</option>
+                        <option>Outros</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="mensagem">Mensagem:
+                         <span id="maximo"> (restam <b id="caracteres">100</b> caracteres)</span>
+                    </label><br>
+                    <textarea name="mensagem" id="mensagem" cols="20" rows="5" maxlength="100"></textarea>
+                </div>
+
+                <button type="submit" id="my-form-button">Enviar dados</button>
+                <p id="my-form-status"></p>
+            </form>

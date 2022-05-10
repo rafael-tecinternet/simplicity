@@ -1,0 +1,59 @@
+HOME
+
+Lista Menu
+<ul class="menu">
+                    <li><a href="index.html" title="página inicial">Home</a></li>
+                    <li><a href="produtos.html" title="conheça nossos produtos">Produtos</a></li>
+                    <li><a href="servicos.html" title="da criação de site a loja virtual, conheça nossos serviços">Serviços</a></li>
+                    <li><a href="contato.html" title="fale com a equipe Simplicity">Contato</a></li>
+                </ul>
+
+
+---------------------------
+
+
+            <div>
+                    <h2>HTML5 e CSS3</h2>
+                    <p>A porta de entrada para o desenvolvimento web.</p>
+            </div>
+-------------------------------
+
+
+Desenvolvedor Front-End
+
+ <h2>Desenvolvedor Front-End</h2>
+            <p>O desenvolvedor Front-End é o profissional que cuida da parte de código que é interpretada diretamente pelo <i>browser</i>. </p>
+            <p>No desenvolvimento por camadas, 
+            <abbr title="HyperText Markup Language">HTML</abbr> é responsável por estruturar o conteúdo, 
+            <abbr title="Cascading Style Sheets">CSS</abbr> cuida dos estilos visuais (incluindo animações) e o JavaScript é o responsável pelos comportamentos e interatividade.</p>
+            <figure>
+                <img src="imagens/linguagens.png" alt="Logotipo das linguagens HTML, CSS e JavaScript">
+            </figure>
+
+---------------
+
+
+História da Internet
+
+<h2>História da Internet</h2>
+            <iframe height="315" src="https://www.youtube.com/embed/jlkvzcG1UMk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+JS x Java
+https://youtu.be/jXPU0uAzmYY?list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o
+
+------------------
+
+<h2>Localização</h2>
+            <p>Rua Francisco Coimbra, 403 <br> 
+            Penha de França <br>
+            São Paulo/SP </p>
+            <p>Telefone: <a href="tel:+551121350300">(11) 2135-0300</a> - E-mail: <a href="mailto:penha@sp.senac.br">penha@sp.senac.br</a></p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1760433006248!2d-46.5424307217935!3d-23.526169866250964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5e45de28bb23%3A0x1d2ed3122aae28a7!2sSenac%20Penha!5e0!3m2!1spt-BR!2sbr!4v1630497782246!5m2!1spt-BR!2sbr" height="450"  allowfullscreen="" loading="lazy"></iframe>
+
+
+--------------
+
+<footer>
+        <p>Simplicity é um site fictício desenvolvido no Senac Penha &copy; - Alguns Direitos Reservados - 2022</p>
+    </footer>

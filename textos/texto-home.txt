@@ -1,0 +1,40 @@
+HOME
+
+HTML5 e CSS3
+A porta de entrada para o desenvolvimento web.
+
+
+--------------
+
+Desenvolvedor Front-End
+
+O desenvolvedor Front-End é o profissional que cuida da parte de código que é interpretada diretamente pelo browser.
+
+No desenvolvimento por camadas, HTML é responsável por estruturar o conteúdo, CSS cuida dos estilos visuais (incluindo animações) e o JavaScript é o responsável pelos comportamentos e interatividade.
+
+---------------
+
+
+História da Internet
+
+https://youtu.be/jlkvzcG1UMk
+
+JS x Java
+https://youtu.be/jXPU0uAzmYY?list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o
+
+------------------
+
+Localização
+Rua Francisco Coimbra, 403
+Penha de França
+São Paulo/SP
+
+Telefone: (11) 2135-0300 - E-mail: penha@sp.senac.br
+
+--------------
+
+
+
+--------------
+
+Simplicity é um site fictício desenvolvido no Senac Penha © - Alguns Direitos Reservados - 2022
