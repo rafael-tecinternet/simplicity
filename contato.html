@@ -293,17 +293,31 @@
         <!-- Criando um contador de caracteres usando Jquery -->
 
         <script>
-            const spanMaximo = $("#maximo"); /* $ = document.querySelector */
-            const bCaracteres = $("#caracteres");
-            const textMensagem = $("mensagem");
+            const spanMaximo = $('#maximo'); /* $ = document.querySelector */
+            const bCaracteres = $('#caracteres');
+            const textMensagem = $('#mensagem');
             // Determinando a quantidade de caracteres
             let quantidade = 100;
             // Ouvinte de evento
+         
             textMensagem.on ("input", function (){
                 let conteudo = textMensagem.val();
                 // Contando a contagem regressiva
                 let contagem = quantidade - conteudo.length;
+                //Exibindo o múmero no HTML
+                bCaracteres.text(contagem);
+                if (contagem == 0) {
+                    spanMaximo.css('color', 'red');
+                    spanMaximo.text("Limite de caracteres alcançado");
+                } else {
+                    spanMaximo.css('color', 'black');
+                    spanMaximo.html("(restam <b id='caracteres'>" +contagem+ "</b> caracteres)")
+                }
+
+
             })
+            
+            
         </script>
 
 
